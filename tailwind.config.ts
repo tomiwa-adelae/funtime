@@ -18,8 +18,11 @@ const config: Config = {
 				center: true,
 			},
 			colors: {
+				red: {
+					400: "#fbde3d",
+				},
 				orange: {
-					400: "#F29A1E",
+					400: "#d91806",
 				},
 				background: "hsl(var(--background))",
 				foreground: "hsl(var(--foreground))",
