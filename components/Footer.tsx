@@ -1,0 +1,24 @@
+import { Separator } from "./ui/separator";
+import { Facebook, Instagram, Twitter } from "lucide-react";
+
+const Footer = () => {
+	return (
+		<footer className="py-8">
+			<div className="container">
+				<Separator className="mb-6" />
+				<div className="flex items-center justify-between gap-4">
+					<small className="font-semibold text-sm text-gray-700">
+						&copy; Funtime 2024. All Rights Reserved.
+					</small>
+					<div className="flex gap-4">
+						<Facebook className="w-6 h-6 text-black cursor-pointer hover:text-orange-400" />
+						<Twitter className="w-6 h-6 text-black cursor-pointer hover:text-orange-400" />
+						<Instagram className="w-6 h-6 text-black cursor-pointer hover:text-orange-400" />
+					</div>
+				</div>
+			</div>
+		</footer>
+	);
+};
+
+export default Footer;
