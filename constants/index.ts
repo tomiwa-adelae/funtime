@@ -40,7 +40,7 @@ export const boxDetails = [
 			"At Funtime, we believe in the power of shared moments. Our chips are designed to bring people together - whether it's a casual handout or a family gathering. The unique shapes of our chips foster a sense of connection and fum, making every snack time an opportunity to bond and create lasting memories.",
 	},
 	{
-		img: "/assets/unity.jpg",
+		img: "/assets/varieties.jpg",
 		title: "Varieties",
 		subText: "Find your flavour",
 		description:
