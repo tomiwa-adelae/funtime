@@ -7,7 +7,7 @@ const OurProducts = () => {
 	));
 	return (
 		<div>
-			<div className="w-full h-full py-12">
+			<div className="w-full h-full py-12" id="products">
 				<h2 className="container text-orange-400 uppercase text-center text-xl sm:text-2xl md:text-3xl font-semibold">
 					Our products
 				</h2>

@@ -4,15 +4,15 @@ export const navLinks = [
 		label: "Home",
 	},
 	{
-		route: "/why",
+		route: "#why",
 		label: "Why us",
 	},
 	{
-		route: "/products",
+		route: "#products",
 		label: "Our products",
 	},
 	{
-		route: "/contact",
+		route: "#contact",
 		label: "Contact us",
 	},
 ];
