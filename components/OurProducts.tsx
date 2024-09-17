@@ -6,32 +6,20 @@ const OurProducts = () => {
 		<Card key={card.src} card={card} index={index} />
 	));
 	return (
-		<div>
-			<div className="w-full h-full py-12" id="products">
-				<h2 className="container text-orange-400 uppercase text-center text-xl sm:text-2xl md:text-3xl font-semibold">
-					Our products
-				</h2>
-				<Carousel items={cards} />
-			</div>
+		<div className="bg-white w-full h-full py-12" id="products">
+			<h2 className="container text-orange-400 uppercase text-center text-xl sm:text-2xl md:text-3xl font-semibold">
+				Our products
+			</h2>
+			<Carousel items={cards} />
 		</div>
 	);
 };
 
-const DummyContent = () => {
+const DummyContent = ({ image }: any) => {
 	return (
-		<div className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl mb-4">
-			<p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
-				<span className="font-bold text-neutral-700 dark:text-neutral-200">
-					The first rule of Apple club is that you boast about Apple
-					club.
-				</span>{" "}
-				Keep a journal, quickly jot down a grocery list, and take
-				amazing class notes. Want to convert those notes to text? No
-				problem. Langotiya jeetu ka mara hua yaar is ready to capture
-				every thought.
-			</p>
+		<div className="bg-[#F5F5F7] p-8 md:p-14 rounded-3xl mb-4">
 			<Image
-				src="https://assets.aceternity.com/macbook.png"
+				src={image}
 				alt="Macbook mockup from Aceternity UI"
 				height="500"
 				width="500"
@@ -45,17 +33,17 @@ const data = [
 	{
 		title: "Caramel",
 		src: "/assets/caramel.png",
-		content: <DummyContent />,
+		content: <DummyContent image={"/assets/caramel.png"} />,
 	},
 	{
 		title: "Ordinary",
 		src: "/assets/ordinary.png",
-		content: <DummyContent />,
+		content: <DummyContent image={"/assets/ordinary.png"} />,
 	},
 	{
 		title: "Spicy",
 		src: "/assets/spicy.png",
-		content: <DummyContent />,
+		content: <DummyContent image={"/assets/spicy.png"} />,
 	},
 ];
 

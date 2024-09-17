@@ -45,7 +45,7 @@ export function Showcase() {
 									</div>
 								</div>
 							</h2>
-							<p className="text-sm md:text-base mt-6 md:w-8/12 mx-auto">
+							<p className="text-sm text-white md:text-base mt-6 md:w-8/12 mx-auto">
 								Dive into a world of endless excitement, where
 								every moment is a new adventure waiting to be
 								explored. Join the fun today!

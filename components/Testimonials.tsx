@@ -4,7 +4,7 @@ import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 
 export function Testimonials() {
 	return (
-		<div className="py-16 flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+		<div className="py-16 flex flex-col antialiased bg-white items-center justify-center relative overflow-hidden">
 			<h3 className="text-orange-400 uppercase text-center text-xl sm:text-2xl md:text-3xl font-semibold mb-8">
 				Don&apos;t take our word for it. <br /> Over 100+ people trust
 				us.

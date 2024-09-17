@@ -3,11 +3,11 @@ import { Facebook, Instagram, Twitter } from "lucide-react";
 
 const Footer = () => {
 	return (
-		<footer className="py-8">
+		<footer className="py-8 bg-white">
 			<div className="container">
 				<Separator className="mb-6" />
 				<div className="flex items-center justify-between gap-4">
-					<small className="font-semibold text-sm text-gray-700">
+					<small className="font-semibold text-xs md:text-sm text-gray-700">
 						&copy; Funtime 2024. All Rights Reserved.
 					</small>
 					<div className="flex gap-4">

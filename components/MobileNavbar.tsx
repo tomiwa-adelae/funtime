@@ -68,7 +68,7 @@ export function MobileNavbar() {
 										isActive
 											? "bg-orange-400 text-white"
 											: "bg-transparent"
-									} hover:bg-orange-200 dark:hover:bg-orange-300`}
+									} hover:bg-orange-200`}
 								>
 									{label}
 								</Link>
