@@ -11,9 +11,9 @@ const Footer = () => {
 						&copy; Funtime 2024. All Rights Reserved.
 					</small>
 					<div className="flex gap-4">
-						<Facebook className="w-6 h-6 text-black cursor-pointer hover:text-orange-400" />
-						<Twitter className="w-6 h-6 text-black cursor-pointer hover:text-orange-400" />
-						<Instagram className="w-6 h-6 text-black cursor-pointer hover:text-orange-400" />
+						<Facebook className="w-4 h-4 md:w-6 md:h-6 text-black cursor-pointer hover:text-orange-400" />
+						<Twitter className="w-4 h-4 md:w-6 md:h-6 text-black cursor-pointer hover:text-orange-400" />
+						<Instagram className="w-4 h-4 md:w-6 md:h-6 text-black cursor-pointer hover:text-orange-400" />
 					</div>
 				</div>
 			</div>
