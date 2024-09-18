@@ -25,10 +25,10 @@ export function Showcase() {
 
 			<BackgroundBeamsWithCollision>
 				<BackgroundLines>
-					<div className="container mt-20 lg:mt-0 text-center flex flex-col lg:flex-row items-center justify-center gap-4">
-						<div className="mt-8 relative z-20 py-16">
-							<h2
-								className={`text-4xl sm:text-5xl md:text-6xl lg:text-7xl  font-bold text-center text-black tracking-tight ${irishGrover.className}`}
+					<div className="container text-center flex flex-col lg:flex-row items-center justify-center gap-2">
+						<div className="relative z-20 py-10">
+							<h1
+								className={`text-5xl sm:text-6xl md:text-7xl lg:text-8xl  font-bold text-center text-black tracking-tight ${irishGrover.className}`}
 							>
 								Fun in every crunch
 								<br />
@@ -44,8 +44,8 @@ export function Showcase() {
 										</span>
 									</div>
 								</div>
-							</h2>
-							<p className="text-sm text-white md:text-base mt-6 md:w-8/12 mx-auto">
+							</h1>
+							<p className="text-sm md:text-base md:w-8/12 mx-auto">
 								Dive into a world of endless excitement, where
 								every moment is a new adventure waiting to be
 								explored. Join the fun today!
