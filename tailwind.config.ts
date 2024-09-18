@@ -19,6 +19,7 @@ const config: Config = {
 			},
 			colors: {
 				orange: {
+					100: "#EEE1CE",
 					400: "#F4B220",
 				},
 				background: "hsl(var(--background))",
