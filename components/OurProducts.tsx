@@ -6,8 +6,8 @@ const OurProducts = () => {
 		<Card key={card.src} card={card} index={index} />
 	));
 	return (
-		<div className="bg-white w-full h-full py-12" id="products">
-			<h2 className="container text-orange-400 uppercase text-center text-xl sm:text-2xl md:text-3xl font-semibold">
+		<div className="bg-orange-400 w-full h-full py-12" id="products">
+			<h2 className="container text-white uppercase text-center text-xl sm:text-2xl md:text-3xl font-semibold">
 				Our products
 			</h2>
 			<Carousel items={cards} />

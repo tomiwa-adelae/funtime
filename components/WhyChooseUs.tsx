@@ -4,7 +4,7 @@ import Card from "./Card";
 
 const WhyChooseUs = () => {
 	return (
-		<div className="bg-orange-100 py-12" id="why">
+		<div className="bg-white py-12" id="why">
 			<div className="container">
 				<h3 className="text-orange-400 uppercase text-center text-xl sm:text-2xl md:text-3xl font-semibold mb-8">
 					Why choose us

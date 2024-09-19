@@ -13,7 +13,7 @@ const irishGrover = Irish_Grover({
 const Header = () => {
 	return (
 		<div className="container">
-			<header className="container shadow-[0_8px_30px_rgb(0,0,0,0.12)] bg-orange-400 rounded-full py-3">
+			<header className="container shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-white rounded-full py-3">
 				<div className="container">
 					<div className="flex items-center justify-between gap-4">
 						<Link href="/">
@@ -25,9 +25,13 @@ const Header = () => {
 								className="w-32 h-14 object-cover"
 							/>
 						</Link>
-						<nav className="hidden text-white md:flex font-semibold text-xs uppercase gap-10">
+						<nav className="hidden text-orange-400 md:flex font-semibold text-xs uppercase gap-10">
 							{navLinks.map((link, index) => (
-								<Link key={index} href={link.route}>
+								<Link
+									key={index}
+									className="hover:text-black transition"
+									href={link.route}
+								>
 									{link.label}
 								</Link>
 							))}

@@ -30,7 +30,7 @@ const Card = ({
 					<p className="font-normal text-base md:text-lg text-gray-50 relative z-10">
 						{subText}
 					</p>
-					<p className="font-normal text-xs text-gray-200 relative z-10">
+					<p className="font-semibold text-xs text-gray-200 relative z-10">
 						{description}
 					</p>
 				</div>
