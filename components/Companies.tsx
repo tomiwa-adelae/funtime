@@ -12,7 +12,7 @@ export function Companies() {
 			</h3>
 			<InfiniteMovingLogo
 				items={companies}
-				direction="right"
+				direction="left"
 				speed="slow"
 			/>
 		</div>

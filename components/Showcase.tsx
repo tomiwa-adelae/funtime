@@ -55,7 +55,7 @@ export function Showcase() {
 								asChild
 								className="mt-6 w-auto"
 							>
-								<Link href="/">Insert your letter</Link>
+								<Link href="/letters">Insert your letter</Link>
 							</Button>
 						</div>
 						<Image

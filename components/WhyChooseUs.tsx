@@ -4,9 +4,9 @@ import Card from "./Card";
 
 const WhyChooseUs = () => {
 	return (
-		<div className="bg-white py-12" id="why">
+		<div className="bg-orange-400 py-12" id="why">
 			<div className="container">
-				<h3 className="text-orange-400 uppercase text-center text-xl sm:text-2xl md:text-3xl font-semibold mb-8">
+				<h3 className="text-white text-center text-xl sm:text-2xl md:text-3xl font-semibold mb-8">
 					Why choose us
 				</h3>
 				<div className="grid grid-cols-1 md:grid-cols-2 gap-4">

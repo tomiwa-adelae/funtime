@@ -30,7 +30,7 @@ export function MobileNavbar() {
 		<Sheet>
 			<SheetTrigger asChild className="md:hidden">
 				<Button variant="ghost" size="icon">
-					<Menu className="text-white" />
+					<Menu className="text-orange-400" />
 				</Button>
 			</SheetTrigger>
 			<SheetContent
@@ -64,7 +64,7 @@ export function MobileNavbar() {
 							<SheetClose asChild key={index}>
 								<Link
 									href={route}
-									className={`flex items-center justify-start w-full rounded-md p-3 text-xs font-bold transition  ${
+									className={`flex items-center justify-start w-full rounded-md p-3 text-xs text-black font-bold transition  ${
 										isActive
 											? "bg-orange-400 text-white"
 											: "bg-transparent"

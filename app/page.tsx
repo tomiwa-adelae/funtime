@@ -9,8 +9,8 @@ export default function Home() {
 	return (
 		<div className="min-h-[200vh]">
 			<Showcase />
-			<WhyChooseUs />
 			<OurProducts />
+			<WhyChooseUs />
 			<Companies />
 			<Testimonials />
 			<Footer />

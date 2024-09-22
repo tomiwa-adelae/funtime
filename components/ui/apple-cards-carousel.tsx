@@ -243,13 +243,13 @@ export const Card = ({
 			<motion.button
 				layoutId={layout ? `card-${card.title}` : undefined}
 				onClick={handleOpen}
-				className="rounded-3xl bg-white h-80 w-56 md:h-[40rem] md:w-96 overflow-hidden flex flex-col items-start justify-start relative z-10"
+				className="rounded-3xl bg-white h-80 w-56 md:h-[30rem] md:w-96 overflow-hidden flex flex-col items-start justify-start relative z-10"
 			>
 				<div className="relative z-40 p-8">
-					<motion.p className="text-white text-sm md:text-base font-medium font-sans text-left"></motion.p>
+					<motion.p className="text-orange-400 text-sm md:text-base font-medium font-sans text-left"></motion.p>
 					<motion.p
 						layoutId={layout ? `title-${card.title}` : undefined}
-						className="text-white text-xl md:text-3xl font-semibold max-w-xs text-left [text-wrap:balance] font-sans mt-2"
+						className="text-orange-400 text-xl md:text-3xl font-semibold max-w-xs text-left [text-wrap:balance] font-sans"
 					>
 						{card.title}
 					</motion.p>
