@@ -245,6 +245,7 @@ export const Card = ({
 				onClick={handleOpen}
 				className="rounded-3xl bg-white h-80 w-56 md:h-[30rem] md:w-96 overflow-hidden flex flex-col items-start justify-start relative z-10"
 			>
+				<div className="absolute h-full top-0 inset-x-0 bg-gradient-to-b from-gray-100 via-transparent to-gray-100 z-30 pointer-events-none" />
 				<div className="relative z-40 p-8">
 					<motion.p className="text-orange-400 text-sm md:text-base font-medium font-sans text-left"></motion.p>
 					<motion.p
