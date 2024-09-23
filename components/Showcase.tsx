@@ -46,9 +46,7 @@ export function Showcase() {
 								</div>
 							</h1>
 							<p className="text-sm md:text-base md:w-8/12 text-gray-700 font-semibold mx-auto">
-								Dive into a world of endless excitement, where
-								every moment is a new adventure waiting to be
-								explored. Join the fun today!
+								What letters did you find inside your pack?
 							</p>
 							<Button
 								variant={"white"}
