@@ -7,7 +7,7 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 
 export default function Home() {
 	return (
-		<div className="min-h-[200vh]">
+		<div>
 			<Showcase />
 			<OurProducts />
 			<WhyChooseUs />

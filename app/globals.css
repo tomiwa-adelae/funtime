@@ -20,6 +20,44 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+.input-star {
+	padding: 10px;
+	font-size: 16px;
+	outline: none;
+	background-color: #9a7436;
+	clip-path: polygon(
+		50% 0%,
+		61% 35%,
+		98% 35%,
+		68% 57%,
+		79% 91%,
+		50% 70%,
+		21% 91%,
+		32% 57%,
+		2% 35%,
+		39% 35%
+	);
+	text-align: center;
+}
+
+.input-circle {
+	padding: 10px;
+	border-radius: 50%; /* Turns the square input into a circle */
+	font-size: 16px;
+	text-align: center;
+	outline: none;
+	background-color: #9a7436;
+}
+
+.input-triangle {
+	padding: 10px;
+	font-size: 16px;
+	text-align: center;
+	background-color: #9a7436;
+	clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+	outline: none;
+}
+
 @layer utilities {
 	.text-balance {
 		text-wrap: balance;
