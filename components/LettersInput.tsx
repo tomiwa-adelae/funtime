@@ -10,7 +10,7 @@ import {
 const LettersInput = () => {
 	return (
 		<div className="w-full flex items-center justify-center">
-			<InputOTP maxLength={7}>
+			<InputOTP maxLength={7} pattern={REGEXP_ONLY_DIGITS_AND_CHARS}>
 				<InputOTPGroup>
 					<InputOTPSlot className="input-circle" index={0} />
 
